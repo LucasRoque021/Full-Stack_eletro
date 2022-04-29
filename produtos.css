@@ -20,21 +20,36 @@ color: white;
 }
 
 .titulo-page{
-  padding: 10px;
+  padding: 30px 10px;
+}
+
+.market-area{
+  display: flex;
 }
 
 .categorias{
-  padding: 5px;
+  padding: 10px;
   background-color: antiquewhite;
+  width: 20%;
   border-radius: 0 10px 10px 0;
 }
 
-.categorias li{
-  padding: 1px 10px;
+.produtos{
+  width: 80%;
 }
+
+
+.categorias li{
+  padding: 3px 10px;
+}
+
 
 .box_produto{
   padding: 5px;
+  display: inline-block;
+  text-align: center;
+  width: 22.5%;
+  margin: 2px;
 }
 
 .promocao{
@@ -53,4 +68,26 @@ span{
 
 #rodape{
   text-align: center;
+}
+
+@media (max-width: 475px) {
+  .categorias{
+    width: 40%;
+  }
+
+  .produtos{
+    width: 60%;
+  }
+
+  .box_produto{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .box_produto{
+    width: 40%;
+  }
 }
