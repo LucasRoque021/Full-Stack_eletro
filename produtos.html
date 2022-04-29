@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="produtos.css">
+  <title>Produtos - Full Stack Eletro</title>
+  <script src="js/produtos.js"></script>
+</head>
+<body>
+
+  <nav>
+    <table class="menu">
+      <tr>
+        <td width="25%"><a href="index.html"><img   width="80px" src="./images/Full Stack Eletro.png" alt="Full Stack Eletro"></a></td>
+        <td align="center" width="25%"><a href="produtos.html">Produtos</a></td>
+        <td align="center" width="25%"><a href="loja.html">Nossas lojas</a></td>
+        <td align="center" width="25%"><a href="contato.html">Fale conosco</a></td>
+      </tr>
+    </table>
+  </nav>
+  
+  <main>
+
+    <header>
+      <h2 class="titulo-page">Produtos</h2>
+    </header>
+    <hr>
+    
+
+    <table border=0 width= "100%" cellpadding= 5px>
+      <tr>
+        <td class="categorias" rowspan="5" width="20%" valign="top">
+          <h3><font >Categorias</font></h3>
+          <ul>
+            <li onclick="exibirTodos()">Todos (12)</li>
+            <li onclick="exibirCategoria('geladeira')">Geladeiras (3)</li>
+            <li onclick="exibirCategoria('fogao')">Fogões (2)</li>
+            <li onclick="exibirCategoria('microondas')">Microondas (3)</li>
+            <li onclick="exibirCategoria('lavaroupa')">Lavadora de roupas (2)</li>
+            <li onclick="exibirCategoria('lavalouca')">Lava-louças (2)</li>
+          </ul>
+        </td>
+
+        <td class="box_produto" id="geladeira" width="20%" align="center" valign="bottom">
+          <img src="https://www.extra-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=1564328502" alt="Geladeira" width="120px" onclick="destaque(this)">
+          <br>
+          <span>Geladeira Frost Tree Brastemp Side Inverse 540 litros</span>
+          <br>
+          <span class="preco"><del>R$ 6.389,00</del></span>
+          <br>
+          <span class="promocao">R$ 5.019,00</span>
+          <br>
+        </td>
+        <td class="box_produto" id="geladeira" width="20%" align="center" valign="bottom">
+          <img src="https://www.extra-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=1564328502" alt="Geladeira" width="120px" onclick="destaque(this)">
+          <br>
+          <span>Geladeira Frost Tree Brastemp Side Inverse 540 litros</span>
+          <br>
+          <span class="preco"><del>R$ 6.389,00</del></span>
+          <br>
+          <span class="promocao">R$ 5.019,00</span>
+          <br>
+        </td>
+        <td class="box_produto" id="fogao" width="20%" align="center" valign="bottom">
+          <img src="https://www.extra-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=1564328502" alt="Geladeira" width="120px" onclick="destaque(this)">
+          <br>
+          <span>Fogão Frost Tree Brastemp Side Inverse 540 litros</span>
+          <br>
+          <span class="preco"><del>R$ 6.389,00</del></span>
+          <br>
+          <span class="promocao">R$ 5.019,00</span>
+          <br>
+        </td>
+        <td class="box_produto" id="microondas" width="20%" align="center" valign="bottom">
+          <img src="https://www.extra-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=1564328502" alt="Geladeira" width="120px" onclick="destaque(this)">
+          <br>
+          <span>Micro-ondas Frost Tree Brastemp Side Inverse 540 litros</span>
+          <br>
+          <span class="preco"><del>R$ 6.389,00</del></span>
+          <br>
+          <span class="promocao">R$ 5.019,00</span>
+          <br>
+        </td>
+      </tr>
+      
+      <tr>  
+        <td class="box_produto" id="geladeira" width="20%" align="center" valign="bottom">
+          <img src="https://www.extra-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=1564328502" alt="Geladeira" width="120px" onclick="destaque(this)">
+          <br>
+          <span>Geladeira Frost Tree Brastemp Side Inverse 540 litros</span>
+          <br>
+          <span class="preco"><del>R$ 6.389,00</del></span>
+          <br>
+          <span class="promocao">R$ 5.019,00</span>
+          <br>
+        </td>
+        <td class="box_produto" id="lavalouca" width="20%" align="center" valign="bottom">
+          <img src="https://www.extra-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=1564328502" alt="Geladeira" width="120px" onclick="destaque(this)">
+          <br>
+          <span>Lava-louças Frost Tree Brastemp Side Inverse 540 litros</span>
+          <br>
+          <span class="preco"><del>R$ 6.389,00</del></span>
+          <br>
+          <span class="promocao">R$ 5.019,00</span>
+          <br>
+        </td>
+        <td class="box_produto" id="geladeira" width="20%" align="center" valign="bottom">
+          <img src="https://www.extra-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=1564328502" alt="Geladeira" width="120px" onclick="destaque(this)">
+          <br>
+          <span>Geladeira Frost Tree Brastemp Side Inverse 540 litros</span>
+          <br>
+          <span class="preco"><del>R$ 6.389,00</del></span>
+          <br>
+          <span class="promocao">R$ 5.019,00</span>
+          <br>
+        </td>
+        <td class="box_produto" id="lavaroupa" width="20%" align="center" valign="bottom">
+          <img src="https://www.extra-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=1564328502" alt="Geladeira" width="120px" onclick="destaque(this)">
+          <br>
+          <span>Máquina de lavar roupa Frost Tree Brastemp Side Inverse 540 litros</span>
+          <br>
+          <span class="preco"><del>R$ 6.389,00</del></span>
+          <br>
+          <span class="promocao">R$ 5.019,00</span>
+          <br>
+        </td>
+      </tr>
+      <tr>  
+        <td class="box_produto" id="geladeira" width="20%" align="center" valign="bottom">
+          <img src="https://www.extra-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=1564328502" alt="Geladeira" width="120px" onclick="destaque(this)">
+          <br>
+          <span>Geladeira Frost Tree Brastemp Side Inverse 540 litros</span>
+          <br>
+          <span class="preco"><del>R$ 6.389,00</del></span>
+          <br>
+          <span class="promocao">R$ 5.019,00</span>
+          <br>
+        </td>
+        <td class="box_produto" id="geladeira" width="20%" align="center" valign="bottom">
+          <img src="https://www.extra-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=1564328502" alt="Geladeira" width="120px" onclick="destaque(this)">
+          <br>
+          <span>Geladeira Frost Tree Brastemp Side Inverse 540 litros</span>
+          <br>
+          <span class="preco"><del>R$ 6.389,00</del></span>
+          <br>
+          <span class="promocao">R$ 5.019,00</span>
+          <br>
+        </td>
+        <td class="box_produto" id="fogao" width="20%" align="center" valign="bottom">
+          <img src="https://www.extra-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=1564328502" alt="Geladeira" width="120px" onclick="destaque(this)">
+          <br>
+          <span>Fogão Frost Tree Brastemp Side Inverse 540 litros</span>
+          <br>
+          <span class="preco"><del>R$ 6.389,00</del></span>
+          <br>
+          <span class="promocao">R$ 5.019,00</span>
+          <br>
+        </td>
+        <td class="box_produto" id="geladeira" width="20%" align="center" valign="bottom">
+          <img src="https://www.extra-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=1564328502" alt="Geladeira" width="120px" onclick="destaque(this)">
+          <br>
+          <span>Geladeira Frost Tree Brastemp Side Inverse 540 litros</span>
+          <br>
+          <span class="preco"><del>R$ 6.389,00</del></span>
+          <br>
+          <span class="promocao">R$ 5.019,00</span>
+          <br>
+        </td>
+      </tr>
+    </table>
+
+    <br><br><br><br>
+    <br><br><br><br>
+  </main>
+  
+  <footer id="rodape">
+    <p id="formas_pagamento">
+      <b>Formas de pagamento</b>
+    </p>
+    <img
+    src="https://verdelimaomodapraia.com.br/media/wysiwyg/formas_de_pagamento.png"
+    alt="Formas de pagamento"
+    />
+    <p>&copy; Recode Pro</p>
+  </footer>
+</body>
+</html>

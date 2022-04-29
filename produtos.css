@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu{
+  background-color: red;
+  width: 100%;
+}
+
+.menu a{
+text-decoration: none;
+color: white;
+
+}
+
+.titulo-page{
+  padding: 10px;
+}
+
+.categorias{
+  padding: 5px;
+  background-color: antiquewhite;
+  border-radius: 0 10px 10px 0;
+}
+
+.categorias li{
+  padding: 1px 10px;
+}
+
+.box_produto{
+  padding: 5px;
+}
+
+.promocao{
+  color: red;
+  font-weight: 600;
+  font-size: 14pt;
+}
+
+span{
+ font-size: 10pt; 
+}
+
+#formas_pagamento{
+  color: red;
+}
+
+#rodape{
+  text-align: center;
+}
